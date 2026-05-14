@@ -1,0 +1,19 @@
+.info-box{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:40px;
+  background:#0f172a;
+  padding:40px;
+  border-radius:20px;
+}
+
+.timeline{
+  margin-top:60px;
+}
+
+.timeline-item{
+  padding:25px;
+  background:#111c33;
+  margin-bottom:20px;
+  border-left:4px solid #0ea5e9;
+}

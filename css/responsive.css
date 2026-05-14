@@ -1,0 +1,33 @@
+@media(max-width:900px){
+
+  .hero{
+    text-align:center;
+  }
+
+  .hero-text h1{
+    font-size:50px;
+  }
+
+  .info-box{
+    grid-template-columns:1fr;
+  }
+
+}
+
+@media(max-width:600px){
+
+  nav{
+    flex-direction:column;
+    gap:20px;
+  }
+
+  .hero-image img{
+    width:260px;
+    height:260px;
+  }
+
+  .hero-text h1{
+    font-size:38px;
+  }
+
+}
